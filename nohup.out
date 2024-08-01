@@ -1,0 +1,113 @@
+2023年12月18日 20:59:29
+中野駅クローリング中
+落合駅クローリング中
+高田馬場駅クローリング中
+早稲田駅クローリング中
+神楽坂駅クローリング中
+飯田橋駅クローリング中
+九段下駅クローリング中
+竹橋駅クローリング中
+大手町駅クローリング中
+日本橋駅クローリング中
+茅場町駅クローリング中
+門前仲町駅クローリング中
+木場駅クローリング中
+東陽町駅クローリング中
+南砂町駅クローリング中
+西葛西駅クローリング中
+葛西駅クローリング中
+浦安駅クローリング中
+南行徳駅クローリング中
+行徳駅クローリング中
+妙典駅クローリング中
+原木中山駅クローリング中
+西船橋駅クローリング中
+経過時間 17536.99222278595
+2914 件のデータを学習しました
+1342 件のデータを学習しました
+886 件のデータを学習しました
+1078 件のデータを学習しました
+1072 件のデータを学習しました
+277 件のデータを学習しました
+212 件のデータを学習しました
+4 件のデータを学習しました
+33 件のデータを学習しました
+165 件のデータを学習しました
+389 件のデータを学習しました
+1188 件のデータを学習しました
+1338 件のデータを学習しました
+961 件のデータを学習しました
+658 件のデータを学習しました
+488 件のデータを学習しました
+573 件のデータを学習しました
+921 件のデータを学習しました
+1300 件のデータを学習しました
+1455 件のデータを学習しました
+1055 件のデータを学習しました
+516 件のデータを学習しました
+1178 件のデータを学習しました
+中野駅予測開始
+落合駅予測開始
+高田馬場駅予測開始
+早稲田駅予測開始
+神楽坂駅予測開始
+飯田橋駅予測開始
+九段下駅予測開始
+竹橋駅予測開始
+大手町駅予測開始
+日本橋駅予測開始
+茅場町駅予測開始
+門前仲町駅予測開始
+木場駅予測開始
+東陽町駅予測開始
+南砂町駅予測開始
+西葛西駅予測開始
+葛西駅予測開始
+浦安駅予測開始
+南行徳駅予測開始
+行徳駅予測開始
+妙典駅予測開始
+原木中山駅予測開始
+西船橋駅予測開始
+経過時間 17546.063331365585
+2023年12月19日 01:51:55
+2023年12月19日 20:46:02
+中野駅クローリング中
+落合駅クローリング中
+高田馬場駅クローリング中
+早稲田駅クローリング中
+神楽坂駅クローリング中
+飯田橋駅クローリング中
+Traceback (most recent call last):
+  File "/home/ubuntu/crawler/crawler/main.py", line 14, in <module>
+    crawling(crawling_page=200)
+  File "/home/ubuntu/crawler/crawler/crawler.py", line 72, in crawling
+    for property_div in driver.find_elements(By.CLASS_NAME,"cassetteitem"):
+  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 892, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+#0 0x55c5bd79ecb3 <unknown>
+#1 0x55c5bd462957 <unknown>
+#2 0x55c5bd436ab8 <unknown>
+#3 0x55c5bd4dce5f <unknown>
+#4 0x55c5bd4f2a76 <unknown>
+#5 0x55c5bd4d7453 <unknown>
+#6 0x55c5bd4a2894 <unknown>
+#7 0x55c5bd4a385e <unknown>
+#8 0x55c5bd7654e1 <unknown>
+#9 0x55c5bd76937e <unknown>
+#10 0x55c5bd753635 <unknown>
+#11 0x55c5bd769fd6 <unknown>
+#12 0x55c5bd736f1f <unknown>
+#13 0x55c5bd78d1c8 <unknown>
+#14 0x55c5bd78d392 <unknown>
+#15 0x55c5bd79de43 <unknown>
+#16 0x7f0c98798ac3 <unknown>
+

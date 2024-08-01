@@ -18,10 +18,7 @@ def seaching_data(floor_space=0, total_fee=100000000, access_time=20, constructi
     c = conn.cursor(MySQLdb.cursors.DictCursor) 
     query = f'SELECT * FROM `{area_code}_properties` where floor_space > {floor_space} and total_fee < {total_fee} and access_time < {access_time} and construction_age < {construction_age} order by {diff}' 
 
-    # 乖離率降順で上位２０件表示
-    # c.execute(f'SELECT * FROM `{area_code}_properties` order by deviation_rate')
     c.execute(query)
-    # where total_fee < 120000 and access_time < 20 and floor_space > 30 and construction_age < 30 
 
     search_result_tuple = c.fetchall()
     search_result_json = json.dumps(search_result_tuple, indent=4)
